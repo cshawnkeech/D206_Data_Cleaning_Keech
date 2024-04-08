@@ -1,0 +1,132 @@
+Unnamed: 0      int64           10000
+CaseOrder       int64           10000
+Customer_id     object          10000
+Interaction     object          10000
+UID             object          10000
+City            category        6072
+State           category        52
+County          category        1607
+Zip             int64           8612
+Lat             float64         8588
+Lng             float64         8601
+Population      int64           5951
+Area            category        3
+Timezone        category        26
+Job             object          639
+Children        float64         11
+Age             float64         72
+Education       category        12
+Employment      category        5
+Income          float64         7531
+Marital         category        5
+Gender          category        3
+
+ReAdmis         category        2
+ReAdmis
+No     6331
+Yes    3669
+Name: count, dtype: int64
+
+VitD_levels     float64         10000
+Doc_visits      int64           9
+Full_meals_eaten int64           8
+VitD_supp       category        6
+
+Soft_drink      category        2
+Soft_drink
+No     5589
+Yes    1944
+Name: count, dtype: int64
+
+Initial_admin   category        3
+
+HighBlood       category        2
+HighBlood
+No     5910
+Yes    4090
+Name: count, dtype: int64
+
+
+Stroke          category        2
+Stroke
+No     8007
+Yes    1993
+Name: count, dtype: int64
+
+Complication_risk category        3
+
+Overweight      category        2
+Overweight
+1.0    6395
+0.0    2623
+Name: count, dtype: int64
+
+
+Arthritis       category        2
+Arthritis
+No     6426
+Yes    3574
+Name: count, dtype: int64
+
+
+Diabetes        category        2
+Diabetes
+No     7262
+Yes    2738
+Name: count, dtype: int64
+
+
+Hyperlipidemia  category        2
+Hyperlipidemia
+No     6628
+Yes    3372
+Name: count, dtype: int64
+
+
+BackPain        category        2
+BackPain
+No     5886
+Yes    4114
+Name: count, dtype: int64
+
+
+Anxiety         category        2
+Anxiety
+0.0    6110
+1.0    2906
+Name: count, dtype: int64
+
+
+Allergic_rhinitis category        2
+Allergic_rhinitis
+No     6059
+Yes    3941
+Name: count, dtype: int64
+
+
+Reflux_esophagitis category        2
+Reflux_esophagitis
+No     5865
+Yes    4135
+Name: count, dtype: int64
+
+
+Asthma          category        2
+Asthma
+No     7107
+Yes    2893
+Name: count, dtype: int64
+
+Services        category        4
+Initial_days    float64         8944
+TotalCharge     float64         10000
+Additional_charges float64         8888
+Item1           category        8
+Item2           category        8
+Item3           category        8
+Item4           category        8
+Item5           category        8
+Item6           category        8
+Item7           category        8
+Item8           category        8
+

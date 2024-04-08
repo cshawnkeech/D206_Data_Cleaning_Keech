@@ -17,12 +17,15 @@ def check_for_categorical(df, threshold=30, file=None):
         threshold (int, default 30):
             max number of unique values to show value counts
         file (str filepath, default None):
-            if present, output is saved to a txt file, returns None
+            if present, report output is saved to a txt file
+            if not present, report output is printed to stdout
 
     Returns:
-        if file=None, returns str
-        if file, generates .txt file and returns None
+
+        lst of categories that fall under threshold of unique responses
     """
+
+    cat_list = []
 
     output_string = ""
 
@@ -38,13 +41,17 @@ def check_for_categorical(df, threshold=30, file=None):
 
             output_string += "\n" + header_string + "\n"
 
-            output_string += str(df[column].value_counts()) + "\n"
+            output_string += str(df[column].value_counts()) + "\n\n"
+
+            cat_list.append(column)
 
     if file:
 
-        with open(file, mode='a', encoding="utf-8") as f:
+        with open(file, 'a', encoding="utf-8") as f:
 
             print(output_string, file=f)
 
     else:
-        return output_string
+        print(output_string)
+
+    return cat_list

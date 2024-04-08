@@ -10,6 +10,8 @@
     ],
     // words - list of words to be always considered correct
     "words": [
+        "Adak",
+        "Admis",
         "airquality",
         "albeck",
         "arange",
@@ -49,6 +51,7 @@
         "fullid",
         "Gatlin",
         "genfromtxt",
+        "Hyperlipidemia",
         "imshow",
         "intelex",
         "ipynb",
@@ -109,8 +112,11 @@
         "urbanpop",
         "usecols",
         "varchar",
+        "Vevay",
+        "Winamac",
         "winequality",
         "xlabel",
+        "Yakutat",
         "ylabel",
         "Yratio"
     ],
