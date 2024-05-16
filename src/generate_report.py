@@ -8,7 +8,7 @@ Functions for assisting in generating reports.
 # import pandas as pd
 
 
-def check_for_categorical(df, threshold=30, file=None):
+def check_for_categorical(df, threshold=30, file=None, dropna=False):
     """
     check if there are
 
@@ -30,7 +30,7 @@ def check_for_categorical(df, threshold=30, file=None):
     output_string = ""
 
     for column in df.columns:
-        unique_value_counts = df[column].value_counts().shape[0]
+        unique_value_counts = df[column].value_counts(dropna=dropna).shape[0]
 
         header_string = f"{column:<15} {str(df[column].dtype):<15} " \
             f"{unique_value_counts}"
@@ -41,7 +41,9 @@ def check_for_categorical(df, threshold=30, file=None):
 
             output_string += "\n" + header_string + "\n"
 
-            output_string += str(df[column].value_counts()) + "\n\n"
+            output_string += str(df[column].value_counts(dropna=dropna))
+
+            output_string += "\n\n"
 
             cat_list.append(column)
 
