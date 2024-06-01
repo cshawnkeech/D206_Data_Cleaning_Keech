@@ -12,16 +12,16 @@ The column indices indicate the columns as they are imported from the original `
 
 As some columns have logical groupings, the indexes may appear slightly out of order.
 
-#### Indexing variables:
+#### Indexing variables
 
 | Column Index | Column Name | Data Type | Variable Type    | Samples      |
 | ------------ | ----------- | --------- | ---------------- | ------------ |
 | 0            | Unnamed: 0  | Integer   | Sequential Index | `1, 2, 3, 4` |
 | 1            | CaseOrder   | Integer   | Sequential index | `1, 2, 3, 4` |
 
-Both of these varaibles contain a sequential index (from 1 to 10000) and are duplicates of one another. They are stored as integers, and only serve to maintain the sequential order of records. As the Pandas DataFrame data structure provides a numeric index by default, these features can be removed.
+Both of these variables contain a sequential index (from 1 to 10000) and are duplicates of one another. They are stored as integers, and only serve to maintain the sequential order of records. As the Pandas DataFrame data structure provides a numeric index by default, these features can be removed.
 
-Examples: 
+Examples:
 
 #### Customer Identification, Location, and Demographics
 
@@ -35,7 +35,7 @@ Examples:
 
 2   Customer_id
 
-* This is a unique alphanumeric customer identifier string. 
+* This is a unique alphanumeric customer identifier string.
 * It could be considered a categorical variable in a very general sense, but only if you consider each individual customer their own category.
 
 3   Interaction
@@ -78,16 +78,14 @@ Residence location as listed on the billing statment.
 | 19           | Income      | Annual income of Patient (or primary insurance holder)  | Float (includes NaNs) | Continuous ratio                             | `52120.99, 7874.03, 70030.91, nan, 70144.95`                 |
 | 20           | Marital     | Marital status of patient (or primary insurance holder) | String                | Categorical (Nominal)                        | `'Divorced', 'Married', 'Never Married', 'Separated', 'Widowed'` |
 
-
-
 #### Customer Physical Attributes & Health
 
 | Column Index | Column Name        | Description                                                  | Data Type                    | Variable Type         | Samples                                                      |
 | ------------ | ------------------ | ------------------------------------------------------------ | ---------------------------- | --------------------- | ------------------------------------------------------------ |
 | 21           | Gender             | Customer self-identification                                 | String                       | Categorical (Nominal) | `'Female', 'Male', 'Prefer not to answer'`                   |
 | 23           | VitD_levels        | Patient's vitamin D level (ng/mL)                            | Float                        | Continuous ratio      | `19.1532082, 14.08663461, 14.05481607 15.957204, 14.80686606` |
-| 26           | VitD_supp          | Vitamin D suppliments provided to patient                    | Integer                      | Discrete ratio        | `0, 1, 2, 3, 4, 5`                                           |
-| 27           | Soft_drink         | Does patitnet habitually dring more than three sodas a day?  | Categorical, (includes NaNs) | Categorical (Binary)  | `'No', 'Yes', 'No', 'No', NaN`                               |
+| 26           | VitD_supp          | Vitamin D supplements provided to patient                    | Integer                      | Discrete ratio        | `0, 1, 2, 3, 4, 5`                                           |
+| 27           | Soft_drink         | Does patient habitually during more than three sodas a day?  | Categorical, (includes NaNs) | Categorical (Binary)  | `'No', 'Yes', 'No', 'No', NaN`                               |
 | 29           | HighBlood          | Does the patient have high blood pressure?                   | Categorical                  | Categorical (Binary)  | `1, 1, 0, 0, 0`                                              |
 | 30           | Stroke             | Patient has had a stroke in the past.                        | Categorical                  | Categorical (Binary)  | `0, 0, 0, 1, 0`                                              |
 | 31           | Complication_risk  | Level of complication risk for the patient as assessed by a primary patient assessment | Categorical                  | Categorical (Ordinal) | `'Low', 'Medium', 'High'`                                    |
@@ -101,8 +99,6 @@ Residence location as listed on the billing statment.
 | 39           | Reflux_esophagitis | Does the patient have allergic rhinitis                      | Categorical                  | Categorical (Binary)  | `0.0, 1.0`                                                   |
 | 40           | Asthma             | Does the patient have asthma                                 | Categorical                  | Categorical (Binary)  | `0.0, 1.0`                                                   |
 
-
-
 #### Customer Hospital Tracking
 
 | Column Index | Column Name        | Description                                                  | Data Type             | Variable Type                               | Samples                                                      |
@@ -115,13 +111,9 @@ Residence location as listed on the billing statment.
 | 43           | TotalCharge        | Amount charged to patient daily (total/stay duration)        | Float                 | Continuous ratio data                       | `13964.38675, 2631.975085, 2840.620344, 17892.9408, 2789.476853` |
 | 44           | Additional_charges | Average amount charged for miscellaneous procedures, treatments, medicines, anesthesiology, etc. | Float                 | Continuous ratio data                       | `7911.926119, 12159.07509, 13818.9826, 7829.036633, 5991.504059` |
 
-
-
 #### Survey responses
 
 Responses to customer survey asking customers to rate the importance of each item on a scale of 1 to 8 (with 1 being most important and 8 being the least)
-
-
 
 | Column Index | Column Name | Description                            | Data Type   | Variable Type         | Samples |
 | ------------ | ----------- | -------------------------------------- | ----------- | --------------------- | ------- |
@@ -133,8 +125,6 @@ Responses to customer survey asking customers to rate the importance of each ite
 | 50           | Item6       | Hours of treatment                     | Categorical | Categorical (ordinal) |         |
 | 51           | Item7       | Courteous staff                        | Categorical | Categorical (ordinal) |         |
 | 52           | Item8       | Evidence of active listing from doctor | Categorical | Categorical (ordinal) |         |
-
-
 
 #### Target
 
