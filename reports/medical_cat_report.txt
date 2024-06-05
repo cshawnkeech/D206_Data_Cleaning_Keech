@@ -9356,3 +9356,1873 @@ Item8
 Name: count, dtype: int64
 
 
+Customer_id     object          10000
+Interaction     object          10000
+UID             object          10000
+City            object          6072
+State           object          52
+County          object          1607
+Zip             int64           8612
+Lat             float64         8588
+Lng             float64         8601
+Population      int64           5951
+
+Area            object          3
+Area
+Rural       3369
+Suburban    3328
+Urban       3303
+Name: count, dtype: int64
+
+
+Timezone        object          26
+Timezone
+America/New_York                  3889
+America/Chicago                   3771
+America/Los_Angeles                937
+America/Denver                     612
+America/Detroit                    262
+America/Indiana/Indianapolis       151
+America/Phoenix                    100
+America/Boise                       86
+America/Anchorage                   50
+America/Puerto_Rico                 43
+Pacific/Honolulu                    34
+America/Menominee                   14
+America/Nome                        12
+America/Indiana/Vincennes            8
+America/Kentucky/Louisville          6
+America/Sitka                        6
+America/Toronto                      5
+America/Indiana/Marengo              3
+America/Indiana/Tell_City            3
+America/North_Dakota/Beulah          2
+America/Yakutat                      1
+America/Indiana/Winamac              1
+America/Indiana/Knox                 1
+America/North_Dakota/New_Salem       1
+America/Indiana/Vevay                1
+America/Adak                         1
+Name: count, dtype: int64
+
+Job             object          639
+
+Children        float64         12
+Children
+NaN     2588
+0.0     1880
+1.0     1858
+3.0     1113
+2.0     1094
+4.0      739
+8.0      157
+7.0      154
+6.0      145
+5.0      126
+9.0       83
+10.0      63
+Name: count, dtype: int64
+
+Age             float64         73
+
+Education       object          12
+Education
+Regular High School Diploma                 2444
+Bachelor's Degree                           1724
+Some College, 1 or More Years, No Degree    1484
+9th Grade to 12th Grade, No Diploma          832
+Associate's Degree                           797
+Master's Degree                              701
+Some College, Less than 1 Year               642
+Nursery School to 8th Grade                  552
+GED or Alternative Credential                389
+Professional School Degree                   208
+No Schooling Completed                       133
+Doctorate Degree                              94
+Name: count, dtype: int64
+
+
+Employment      object          5
+Employment
+Full Time     6029
+Student       1017
+Part Time      991
+Unemployed     983
+Retired        980
+Name: count, dtype: int64
+
+Income          float64         7532
+
+Marital         object          5
+Marital
+Widowed          2045
+Married          2023
+Separated        1987
+Never Married    1984
+Divorced         1961
+Name: count, dtype: int64
+
+
+Gender          object          3
+Gender
+Female                  5018
+Male                    4768
+Prefer not to answer     214
+Name: count, dtype: int64
+
+
+ReAdmis         object          2
+ReAdmis
+No     6331
+Yes    3669
+Name: count, dtype: int64
+
+VitD_levels     float64         10000
+
+Doc_visits      int64           9
+Doc_visits
+5    3823
+6    2436
+4    2385
+7     634
+3     595
+8      61
+2      58
+1       6
+9       2
+Name: count, dtype: int64
+
+
+Full_meals_eaten int64           8
+Full_meals_eaten
+0    3715
+1    3615
+2    1856
+3     612
+4     169
+5      25
+6       6
+7       2
+Name: count, dtype: int64
+
+
+VitD_supp       int64           6
+VitD_supp
+0    6702
+1    2684
+2     544
+3      64
+4       5
+5       1
+Name: count, dtype: int64
+
+
+Soft_drink      object          3
+Soft_drink
+No     5589
+NaN    2467
+Yes    1944
+Name: count, dtype: int64
+
+
+Initial_admin   object          3
+Initial_admin
+Emergency Admission      5060
+Elective Admission       2504
+Observation Admission    2436
+Name: count, dtype: int64
+
+
+HighBlood       object          2
+HighBlood
+No     5910
+Yes    4090
+Name: count, dtype: int64
+
+
+Stroke          object          2
+Stroke
+No     8007
+Yes    1993
+Name: count, dtype: int64
+
+
+Complication_risk object          3
+Complication_risk
+Medium    4517
+High      3358
+Low       2125
+Name: count, dtype: int64
+
+
+Overweight      float64         3
+Overweight
+1.0    6395
+0.0    2623
+NaN     982
+Name: count, dtype: int64
+
+
+Arthritis       object          2
+Arthritis
+No     6426
+Yes    3574
+Name: count, dtype: int64
+
+
+Diabetes        object          2
+Diabetes
+No     7262
+Yes    2738
+Name: count, dtype: int64
+
+
+Hyperlipidemia  object          2
+Hyperlipidemia
+No     6628
+Yes    3372
+Name: count, dtype: int64
+
+
+BackPain        object          2
+BackPain
+No     5886
+Yes    4114
+Name: count, dtype: int64
+
+
+Anxiety         float64         3
+Anxiety
+0.0    6110
+1.0    2906
+NaN     984
+Name: count, dtype: int64
+
+
+Allergic_rhinitis object          2
+Allergic_rhinitis
+No     6059
+Yes    3941
+Name: count, dtype: int64
+
+
+Reflux_esophagitis object          2
+Reflux_esophagitis
+No     5865
+Yes    4135
+Name: count, dtype: int64
+
+
+Asthma          object          2
+Asthma
+No     7107
+Yes    2893
+Name: count, dtype: int64
+
+
+Services        object          4
+Services
+Blood Work     5265
+Intravenous    3130
+CT Scan        1225
+MRI             380
+Name: count, dtype: int64
+
+Initial_days    float64         8945
+TotalCharge     float64         10000
+Additional_charges float64         8888
+
+Item1           int64           8
+Item1
+4    3455
+3    3404
+5    1377
+2    1315
+6     225
+1     213
+7      10
+8       1
+Name: count, dtype: int64
+
+
+Item2           int64           7
+Item2
+3    3439
+4    3351
+5    1421
+2    1360
+1     213
+6     204
+7      12
+Name: count, dtype: int64
+
+
+Item3           int64           8
+Item3
+4    3464
+3    3379
+5    1358
+2    1356
+6     220
+1     211
+7      11
+8       1
+Name: count, dtype: int64
+
+
+Item4           int64           7
+Item4
+3    3422
+4    3394
+5    1388
+2    1346
+6     231
+1     207
+7      12
+Name: count, dtype: int64
+
+
+Item5           int64           7
+Item5
+4    3446
+3    3423
+2    1380
+5    1308
+6     219
+1     211
+7      13
+Name: count, dtype: int64
+
+
+Item6           int64           7
+Item6
+4    3464
+3    3371
+5    1403
+2    1319
+6     220
+1     213
+7      10
+Name: count, dtype: int64
+
+
+Item7           int64           7
+Item7
+4    3487
+3    3456
+2    1345
+5    1274
+1     215
+6     212
+7      11
+Name: count, dtype: int64
+
+
+Item8           int64           7
+Item8
+3    3401
+4    3337
+5    1429
+2    1391
+6     221
+1     209
+7      12
+Name: count, dtype: int64
+
+
+Customer_id     object          10000
+Interaction     object          10000
+UID             object          10000
+City            object          6072
+State           object          52
+County          object          1607
+Zip             int64           8612
+Lat             float64         8588
+Lng             float64         8601
+Population      int64           5951
+
+Area            object          3
+Area
+Rural       3369
+Suburban    3328
+Urban       3303
+Name: count, dtype: int64
+
+
+Timezone        object          26
+Timezone
+America/New_York                  3889
+America/Chicago                   3771
+America/Los_Angeles                937
+America/Denver                     612
+America/Detroit                    262
+America/Indiana/Indianapolis       151
+America/Phoenix                    100
+America/Boise                       86
+America/Anchorage                   50
+America/Puerto_Rico                 43
+Pacific/Honolulu                    34
+America/Menominee                   14
+America/Nome                        12
+America/Indiana/Vincennes            8
+America/Kentucky/Louisville          6
+America/Sitka                        6
+America/Toronto                      5
+America/Indiana/Marengo              3
+America/Indiana/Tell_City            3
+America/North_Dakota/Beulah          2
+America/Yakutat                      1
+America/Indiana/Winamac              1
+America/Indiana/Knox                 1
+America/North_Dakota/New_Salem       1
+America/Indiana/Vevay                1
+America/Adak                         1
+Name: count, dtype: int64
+
+Job             object          639
+
+Children        float64         12
+Children
+NaN     2588
+0.0     1880
+1.0     1858
+3.0     1113
+2.0     1094
+4.0      739
+8.0      157
+7.0      154
+6.0      145
+5.0      126
+9.0       83
+10.0      63
+Name: count, dtype: int64
+
+Age             float64         73
+
+Education       object          12
+Education
+Regular High School Diploma                 2444
+Bachelor's Degree                           1724
+Some College, 1 or More Years, No Degree    1484
+9th Grade to 12th Grade, No Diploma          832
+Associate's Degree                           797
+Master's Degree                              701
+Some College, Less than 1 Year               642
+Nursery School to 8th Grade                  552
+GED or Alternative Credential                389
+Professional School Degree                   208
+No Schooling Completed                       133
+Doctorate Degree                              94
+Name: count, dtype: int64
+
+
+Employment      object          5
+Employment
+Full Time     6029
+Student       1017
+Part Time      991
+Unemployed     983
+Retired        980
+Name: count, dtype: int64
+
+Income          float64         7532
+
+Marital         object          5
+Marital
+Widowed          2045
+Married          2023
+Separated        1987
+Never Married    1984
+Divorced         1961
+Name: count, dtype: int64
+
+
+Gender          object          3
+Gender
+Female                  5018
+Male                    4768
+Prefer not to answer     214
+Name: count, dtype: int64
+
+
+ReAdmis         object          2
+ReAdmis
+No     6331
+Yes    3669
+Name: count, dtype: int64
+
+VitD_levels     float64         10000
+
+Doc_visits      int64           9
+Doc_visits
+5    3823
+6    2436
+4    2385
+7     634
+3     595
+8      61
+2      58
+1       6
+9       2
+Name: count, dtype: int64
+
+
+Full_meals_eaten int64           8
+Full_meals_eaten
+0    3715
+1    3615
+2    1856
+3     612
+4     169
+5      25
+6       6
+7       2
+Name: count, dtype: int64
+
+
+VitD_supp       int64           6
+VitD_supp
+0    6702
+1    2684
+2     544
+3      64
+4       5
+5       1
+Name: count, dtype: int64
+
+
+Soft_drink      object          3
+Soft_drink
+No     5589
+NaN    2467
+Yes    1944
+Name: count, dtype: int64
+
+
+Initial_admin   object          3
+Initial_admin
+Emergency Admission      5060
+Elective Admission       2504
+Observation Admission    2436
+Name: count, dtype: int64
+
+
+HighBlood       object          2
+HighBlood
+No     5910
+Yes    4090
+Name: count, dtype: int64
+
+
+Stroke          object          2
+Stroke
+No     8007
+Yes    1993
+Name: count, dtype: int64
+
+
+Complication_risk object          3
+Complication_risk
+Medium    4517
+High      3358
+Low       2125
+Name: count, dtype: int64
+
+
+Overweight      float64         3
+Overweight
+1.0    6395
+0.0    2623
+NaN     982
+Name: count, dtype: int64
+
+
+Arthritis       object          2
+Arthritis
+No     6426
+Yes    3574
+Name: count, dtype: int64
+
+
+Diabetes        object          2
+Diabetes
+No     7262
+Yes    2738
+Name: count, dtype: int64
+
+
+Hyperlipidemia  object          2
+Hyperlipidemia
+No     6628
+Yes    3372
+Name: count, dtype: int64
+
+
+BackPain        object          2
+BackPain
+No     5886
+Yes    4114
+Name: count, dtype: int64
+
+
+Anxiety         float64         3
+Anxiety
+0.0    6110
+1.0    2906
+NaN     984
+Name: count, dtype: int64
+
+
+Allergic_rhinitis object          2
+Allergic_rhinitis
+No     6059
+Yes    3941
+Name: count, dtype: int64
+
+
+Reflux_esophagitis object          2
+Reflux_esophagitis
+No     5865
+Yes    4135
+Name: count, dtype: int64
+
+
+Asthma          object          2
+Asthma
+No     7107
+Yes    2893
+Name: count, dtype: int64
+
+
+Services        object          4
+Services
+Blood Work     5265
+Intravenous    3130
+CT Scan        1225
+MRI             380
+Name: count, dtype: int64
+
+Initial_days    float64         8945
+TotalCharge     float64         10000
+Additional_charges float64         8888
+
+Item1           int64           8
+Item1
+4    3455
+3    3404
+5    1377
+2    1315
+6     225
+1     213
+7      10
+8       1
+Name: count, dtype: int64
+
+
+Item2           int64           7
+Item2
+3    3439
+4    3351
+5    1421
+2    1360
+1     213
+6     204
+7      12
+Name: count, dtype: int64
+
+
+Item3           int64           8
+Item3
+4    3464
+3    3379
+5    1358
+2    1356
+6     220
+1     211
+7      11
+8       1
+Name: count, dtype: int64
+
+
+Item4           int64           7
+Item4
+3    3422
+4    3394
+5    1388
+2    1346
+6     231
+1     207
+7      12
+Name: count, dtype: int64
+
+
+Item5           int64           7
+Item5
+4    3446
+3    3423
+2    1380
+5    1308
+6     219
+1     211
+7      13
+Name: count, dtype: int64
+
+
+Item6           int64           7
+Item6
+4    3464
+3    3371
+5    1403
+2    1319
+6     220
+1     213
+7      10
+Name: count, dtype: int64
+
+
+Item7           int64           7
+Item7
+4    3487
+3    3456
+2    1345
+5    1274
+1     215
+6     212
+7      11
+Name: count, dtype: int64
+
+
+Item8           int64           7
+Item8
+3    3401
+4    3337
+5    1429
+2    1391
+6     221
+1     209
+7      12
+Name: count, dtype: int64
+
+
+Customer_id     object          10000
+Interaction     object          10000
+UID             object          10000
+City            object          6072
+State           object          52
+County          object          1607
+Zip             int64           8612
+Lat             float64         8588
+Lng             float64         8601
+Population      int64           5951
+
+Area            object          3
+Area
+Rural       3369
+Suburban    3328
+Urban       3303
+Name: count, dtype: int64
+
+
+Timezone        object          26
+Timezone
+America/New_York                  3889
+America/Chicago                   3771
+America/Los_Angeles                937
+America/Denver                     612
+America/Detroit                    262
+America/Indiana/Indianapolis       151
+America/Phoenix                    100
+America/Boise                       86
+America/Anchorage                   50
+America/Puerto_Rico                 43
+Pacific/Honolulu                    34
+America/Menominee                   14
+America/Nome                        12
+America/Indiana/Vincennes            8
+America/Kentucky/Louisville          6
+America/Sitka                        6
+America/Toronto                      5
+America/Indiana/Marengo              3
+America/Indiana/Tell_City            3
+America/North_Dakota/Beulah          2
+America/Yakutat                      1
+America/Indiana/Winamac              1
+America/Indiana/Knox                 1
+America/North_Dakota/New_Salem       1
+America/Indiana/Vevay                1
+America/Adak                         1
+Name: count, dtype: int64
+
+Job             object          639
+
+Children        float64         12
+Children
+NaN     2588
+0.0     1880
+1.0     1858
+3.0     1113
+2.0     1094
+4.0      739
+8.0      157
+7.0      154
+6.0      145
+5.0      126
+9.0       83
+10.0      63
+Name: count, dtype: int64
+
+Age             float64         73
+
+Education       object          12
+Education
+Regular High School Diploma                 2444
+Bachelor's Degree                           1724
+Some College, 1 or More Years, No Degree    1484
+9th Grade to 12th Grade, No Diploma          832
+Associate's Degree                           797
+Master's Degree                              701
+Some College, Less than 1 Year               642
+Nursery School to 8th Grade                  552
+GED or Alternative Credential                389
+Professional School Degree                   208
+No Schooling Completed                       133
+Doctorate Degree                              94
+Name: count, dtype: int64
+
+
+Employment      object          5
+Employment
+Full Time     6029
+Student       1017
+Part Time      991
+Unemployed     983
+Retired        980
+Name: count, dtype: int64
+
+Income          float64         7532
+
+Marital         object          5
+Marital
+Widowed          2045
+Married          2023
+Separated        1987
+Never Married    1984
+Divorced         1961
+Name: count, dtype: int64
+
+
+Gender          object          3
+Gender
+Female                  5018
+Male                    4768
+Prefer not to answer     214
+Name: count, dtype: int64
+
+
+ReAdmis         object          2
+ReAdmis
+No     6331
+Yes    3669
+Name: count, dtype: int64
+
+VitD_levels     float64         10000
+
+Doc_visits      int64           9
+Doc_visits
+5    3823
+6    2436
+4    2385
+7     634
+3     595
+8      61
+2      58
+1       6
+9       2
+Name: count, dtype: int64
+
+
+Full_meals_eaten int64           8
+Full_meals_eaten
+0    3715
+1    3615
+2    1856
+3     612
+4     169
+5      25
+6       6
+7       2
+Name: count, dtype: int64
+
+
+VitD_supp       int64           6
+VitD_supp
+0    6702
+1    2684
+2     544
+3      64
+4       5
+5       1
+Name: count, dtype: int64
+
+
+Soft_drink      object          3
+Soft_drink
+No     5589
+NaN    2467
+Yes    1944
+Name: count, dtype: int64
+
+
+Initial_admin   object          3
+Initial_admin
+Emergency Admission      5060
+Elective Admission       2504
+Observation Admission    2436
+Name: count, dtype: int64
+
+
+HighBlood       object          2
+HighBlood
+No     5910
+Yes    4090
+Name: count, dtype: int64
+
+
+Stroke          object          2
+Stroke
+No     8007
+Yes    1993
+Name: count, dtype: int64
+
+
+Complication_risk object          3
+Complication_risk
+Medium    4517
+High      3358
+Low       2125
+Name: count, dtype: int64
+
+
+Overweight      float64         3
+Overweight
+1.0    6395
+0.0    2623
+NaN     982
+Name: count, dtype: int64
+
+
+Arthritis       object          2
+Arthritis
+No     6426
+Yes    3574
+Name: count, dtype: int64
+
+
+Diabetes        object          2
+Diabetes
+No     7262
+Yes    2738
+Name: count, dtype: int64
+
+
+Hyperlipidemia  object          2
+Hyperlipidemia
+No     6628
+Yes    3372
+Name: count, dtype: int64
+
+
+BackPain        object          2
+BackPain
+No     5886
+Yes    4114
+Name: count, dtype: int64
+
+
+Anxiety         float64         3
+Anxiety
+0.0    6110
+1.0    2906
+NaN     984
+Name: count, dtype: int64
+
+
+Allergic_rhinitis object          2
+Allergic_rhinitis
+No     6059
+Yes    3941
+Name: count, dtype: int64
+
+
+Reflux_esophagitis object          2
+Reflux_esophagitis
+No     5865
+Yes    4135
+Name: count, dtype: int64
+
+
+Asthma          object          2
+Asthma
+No     7107
+Yes    2893
+Name: count, dtype: int64
+
+
+Services        object          4
+Services
+Blood Work     5265
+Intravenous    3130
+CT Scan        1225
+MRI             380
+Name: count, dtype: int64
+
+Initial_days    float64         8945
+TotalCharge     float64         10000
+Additional_charges float64         8888
+
+Item1           int64           8
+Item1
+4    3455
+3    3404
+5    1377
+2    1315
+6     225
+1     213
+7      10
+8       1
+Name: count, dtype: int64
+
+
+Item2           int64           7
+Item2
+3    3439
+4    3351
+5    1421
+2    1360
+1     213
+6     204
+7      12
+Name: count, dtype: int64
+
+
+Item3           int64           8
+Item3
+4    3464
+3    3379
+5    1358
+2    1356
+6     220
+1     211
+7      11
+8       1
+Name: count, dtype: int64
+
+
+Item4           int64           7
+Item4
+3    3422
+4    3394
+5    1388
+2    1346
+6     231
+1     207
+7      12
+Name: count, dtype: int64
+
+
+Item5           int64           7
+Item5
+4    3446
+3    3423
+2    1380
+5    1308
+6     219
+1     211
+7      13
+Name: count, dtype: int64
+
+
+Item6           int64           7
+Item6
+4    3464
+3    3371
+5    1403
+2    1319
+6     220
+1     213
+7      10
+Name: count, dtype: int64
+
+
+Item7           int64           7
+Item7
+4    3487
+3    3456
+2    1345
+5    1274
+1     215
+6     212
+7      11
+Name: count, dtype: int64
+
+
+Item8           int64           7
+Item8
+3    3401
+4    3337
+5    1429
+2    1391
+6     221
+1     209
+7      12
+Name: count, dtype: int64
+
+
+Customer_id     object          10000
+Interaction     object          10000
+UID             object          10000
+City            object          6072
+State           object          52
+County          object          1607
+Zip             int64           8612
+Lat             float64         8588
+Lng             float64         8601
+Population      int64           5951
+
+Area            object          3
+Area
+Rural       3369
+Suburban    3328
+Urban       3303
+Name: count, dtype: int64
+
+
+Timezone        object          26
+Timezone
+America/New_York                  3889
+America/Chicago                   3771
+America/Los_Angeles                937
+America/Denver                     612
+America/Detroit                    262
+America/Indiana/Indianapolis       151
+America/Phoenix                    100
+America/Boise                       86
+America/Anchorage                   50
+America/Puerto_Rico                 43
+Pacific/Honolulu                    34
+America/Menominee                   14
+America/Nome                        12
+America/Indiana/Vincennes            8
+America/Kentucky/Louisville          6
+America/Sitka                        6
+America/Toronto                      5
+America/Indiana/Marengo              3
+America/Indiana/Tell_City            3
+America/North_Dakota/Beulah          2
+America/Yakutat                      1
+America/Indiana/Winamac              1
+America/Indiana/Knox                 1
+America/North_Dakota/New_Salem       1
+America/Indiana/Vevay                1
+America/Adak                         1
+Name: count, dtype: int64
+
+Job             object          639
+
+Children        float64         12
+Children
+NaN     2588
+0.0     1880
+1.0     1858
+3.0     1113
+2.0     1094
+4.0      739
+8.0      157
+7.0      154
+6.0      145
+5.0      126
+9.0       83
+10.0      63
+Name: count, dtype: int64
+
+Age             float64         73
+
+Education       object          12
+Education
+Regular High School Diploma                 2444
+Bachelor's Degree                           1724
+Some College, 1 or More Years, No Degree    1484
+9th Grade to 12th Grade, No Diploma          832
+Associate's Degree                           797
+Master's Degree                              701
+Some College, Less than 1 Year               642
+Nursery School to 8th Grade                  552
+GED or Alternative Credential                389
+Professional School Degree                   208
+No Schooling Completed                       133
+Doctorate Degree                              94
+Name: count, dtype: int64
+
+
+Employment      object          5
+Employment
+Full Time     6029
+Student       1017
+Part Time      991
+Unemployed     983
+Retired        980
+Name: count, dtype: int64
+
+Income          float64         7532
+
+Marital         object          5
+Marital
+Widowed          2045
+Married          2023
+Separated        1987
+Never Married    1984
+Divorced         1961
+Name: count, dtype: int64
+
+
+Gender          object          3
+Gender
+Female                  5018
+Male                    4768
+Prefer not to answer     214
+Name: count, dtype: int64
+
+
+ReAdmis         object          2
+ReAdmis
+No     6331
+Yes    3669
+Name: count, dtype: int64
+
+VitD_levels     float64         10000
+
+Doc_visits      int64           9
+Doc_visits
+5    3823
+6    2436
+4    2385
+7     634
+3     595
+8      61
+2      58
+1       6
+9       2
+Name: count, dtype: int64
+
+
+Full_meals_eaten int64           8
+Full_meals_eaten
+0    3715
+1    3615
+2    1856
+3     612
+4     169
+5      25
+6       6
+7       2
+Name: count, dtype: int64
+
+
+VitD_supp       int64           6
+VitD_supp
+0    6702
+1    2684
+2     544
+3      64
+4       5
+5       1
+Name: count, dtype: int64
+
+
+Soft_drink      object          3
+Soft_drink
+No     5589
+NaN    2467
+Yes    1944
+Name: count, dtype: int64
+
+
+Initial_admin   object          3
+Initial_admin
+Emergency Admission      5060
+Elective Admission       2504
+Observation Admission    2436
+Name: count, dtype: int64
+
+
+HighBlood       object          2
+HighBlood
+No     5910
+Yes    4090
+Name: count, dtype: int64
+
+
+Stroke          object          2
+Stroke
+No     8007
+Yes    1993
+Name: count, dtype: int64
+
+
+Complication_risk object          3
+Complication_risk
+Medium    4517
+High      3358
+Low       2125
+Name: count, dtype: int64
+
+
+Overweight      float64         3
+Overweight
+1.0    6395
+0.0    2623
+NaN     982
+Name: count, dtype: int64
+
+
+Arthritis       object          2
+Arthritis
+No     6426
+Yes    3574
+Name: count, dtype: int64
+
+
+Diabetes        object          2
+Diabetes
+No     7262
+Yes    2738
+Name: count, dtype: int64
+
+
+Hyperlipidemia  object          2
+Hyperlipidemia
+No     6628
+Yes    3372
+Name: count, dtype: int64
+
+
+BackPain        object          2
+BackPain
+No     5886
+Yes    4114
+Name: count, dtype: int64
+
+
+Anxiety         float64         3
+Anxiety
+0.0    6110
+1.0    2906
+NaN     984
+Name: count, dtype: int64
+
+
+Allergic_rhinitis object          2
+Allergic_rhinitis
+No     6059
+Yes    3941
+Name: count, dtype: int64
+
+
+Reflux_esophagitis object          2
+Reflux_esophagitis
+No     5865
+Yes    4135
+Name: count, dtype: int64
+
+
+Asthma          object          2
+Asthma
+No     7107
+Yes    2893
+Name: count, dtype: int64
+
+
+Services        object          4
+Services
+Blood Work     5265
+Intravenous    3130
+CT Scan        1225
+MRI             380
+Name: count, dtype: int64
+
+Initial_days    float64         8945
+TotalCharge     float64         10000
+Additional_charges float64         8888
+
+Item1           int64           8
+Item1
+4    3455
+3    3404
+5    1377
+2    1315
+6     225
+1     213
+7      10
+8       1
+Name: count, dtype: int64
+
+
+Item2           int64           7
+Item2
+3    3439
+4    3351
+5    1421
+2    1360
+1     213
+6     204
+7      12
+Name: count, dtype: int64
+
+
+Item3           int64           8
+Item3
+4    3464
+3    3379
+5    1358
+2    1356
+6     220
+1     211
+7      11
+8       1
+Name: count, dtype: int64
+
+
+Item4           int64           7
+Item4
+3    3422
+4    3394
+5    1388
+2    1346
+6     231
+1     207
+7      12
+Name: count, dtype: int64
+
+
+Item5           int64           7
+Item5
+4    3446
+3    3423
+2    1380
+5    1308
+6     219
+1     211
+7      13
+Name: count, dtype: int64
+
+
+Item6           int64           7
+Item6
+4    3464
+3    3371
+5    1403
+2    1319
+6     220
+1     213
+7      10
+Name: count, dtype: int64
+
+
+Item7           int64           7
+Item7
+4    3487
+3    3456
+2    1345
+5    1274
+1     215
+6     212
+7      11
+Name: count, dtype: int64
+
+
+Item8           int64           7
+Item8
+3    3401
+4    3337
+5    1429
+2    1391
+6     221
+1     209
+7      12
+Name: count, dtype: int64
+
+
+Customer_id     object          10000
+Interaction     object          10000
+UID             object          10000
+City            object          6072
+State           object          52
+County          object          1607
+Zip             int64           8612
+Lat             float64         8588
+Lng             float64         8601
+Population      int64           5951
+
+Area            object          3
+Area
+Rural       3369
+Suburban    3328
+Urban       3303
+Name: count, dtype: int64
+
+
+Timezone        object          26
+Timezone
+America/New_York                  3889
+America/Chicago                   3771
+America/Los_Angeles                937
+America/Denver                     612
+America/Detroit                    262
+America/Indiana/Indianapolis       151
+America/Phoenix                    100
+America/Boise                       86
+America/Anchorage                   50
+America/Puerto_Rico                 43
+Pacific/Honolulu                    34
+America/Menominee                   14
+America/Nome                        12
+America/Indiana/Vincennes            8
+America/Kentucky/Louisville          6
+America/Sitka                        6
+America/Toronto                      5
+America/Indiana/Marengo              3
+America/Indiana/Tell_City            3
+America/North_Dakota/Beulah          2
+America/Yakutat                      1
+America/Indiana/Winamac              1
+America/Indiana/Knox                 1
+America/North_Dakota/New_Salem       1
+America/Indiana/Vevay                1
+America/Adak                         1
+Name: count, dtype: int64
+
+Job             object          639
+
+Children        float64         12
+Children
+NaN     2588
+0.0     1880
+1.0     1858
+3.0     1113
+2.0     1094
+4.0      739
+8.0      157
+7.0      154
+6.0      145
+5.0      126
+9.0       83
+10.0      63
+Name: count, dtype: int64
+
+Age             float64         73
+
+Education       object          12
+Education
+Regular High School Diploma                 2444
+Bachelor's Degree                           1724
+Some College, 1 or More Years, No Degree    1484
+9th Grade to 12th Grade, No Diploma          832
+Associate's Degree                           797
+Master's Degree                              701
+Some College, Less than 1 Year               642
+Nursery School to 8th Grade                  552
+GED or Alternative Credential                389
+Professional School Degree                   208
+No Schooling Completed                       133
+Doctorate Degree                              94
+Name: count, dtype: int64
+
+
+Employment      object          5
+Employment
+Full Time     6029
+Student       1017
+Part Time      991
+Unemployed     983
+Retired        980
+Name: count, dtype: int64
+
+Income          float64         7532
+
+Marital         object          5
+Marital
+Widowed          2045
+Married          2023
+Separated        1987
+Never Married    1984
+Divorced         1961
+Name: count, dtype: int64
+
+
+Gender          object          3
+Gender
+Female                  5018
+Male                    4768
+Prefer not to answer     214
+Name: count, dtype: int64
+
+
+ReAdmis         object          2
+ReAdmis
+No     6331
+Yes    3669
+Name: count, dtype: int64
+
+VitD_levels     float64         10000
+
+Doc_visits      int64           9
+Doc_visits
+5    3823
+6    2436
+4    2385
+7     634
+3     595
+8      61
+2      58
+1       6
+9       2
+Name: count, dtype: int64
+
+
+Full_meals_eaten int64           8
+Full_meals_eaten
+0    3715
+1    3615
+2    1856
+3     612
+4     169
+5      25
+6       6
+7       2
+Name: count, dtype: int64
+
+
+VitD_supp       int64           6
+VitD_supp
+0    6702
+1    2684
+2     544
+3      64
+4       5
+5       1
+Name: count, dtype: int64
+
+
+Soft_drink      object          3
+Soft_drink
+No     5589
+NaN    2467
+Yes    1944
+Name: count, dtype: int64
+
+
+Initial_admin   object          3
+Initial_admin
+Emergency Admission      5060
+Elective Admission       2504
+Observation Admission    2436
+Name: count, dtype: int64
+
+
+HighBlood       object          2
+HighBlood
+No     5910
+Yes    4090
+Name: count, dtype: int64
+
+
+Stroke          object          2
+Stroke
+No     8007
+Yes    1993
+Name: count, dtype: int64
+
+
+Complication_risk object          3
+Complication_risk
+Medium    4517
+High      3358
+Low       2125
+Name: count, dtype: int64
+
+
+Overweight      float64         3
+Overweight
+1.0    6395
+0.0    2623
+NaN     982
+Name: count, dtype: int64
+
+
+Arthritis       object          2
+Arthritis
+No     6426
+Yes    3574
+Name: count, dtype: int64
+
+
+Diabetes        object          2
+Diabetes
+No     7262
+Yes    2738
+Name: count, dtype: int64
+
+
+Hyperlipidemia  object          2
+Hyperlipidemia
+No     6628
+Yes    3372
+Name: count, dtype: int64
+
+
+BackPain        object          2
+BackPain
+No     5886
+Yes    4114
+Name: count, dtype: int64
+
+
+Anxiety         float64         3
+Anxiety
+0.0    6110
+1.0    2906
+NaN     984
+Name: count, dtype: int64
+
+
+Allergic_rhinitis object          2
+Allergic_rhinitis
+No     6059
+Yes    3941
+Name: count, dtype: int64
+
+
+Reflux_esophagitis object          2
+Reflux_esophagitis
+No     5865
+Yes    4135
+Name: count, dtype: int64
+
+
+Asthma          object          2
+Asthma
+No     7107
+Yes    2893
+Name: count, dtype: int64
+
+
+Services        object          4
+Services
+Blood Work     5265
+Intravenous    3130
+CT Scan        1225
+MRI             380
+Name: count, dtype: int64
+
+Initial_days    float64         8945
+TotalCharge     float64         10000
+Additional_charges float64         8888
+
+Item1           int64           8
+Item1
+4    3455
+3    3404
+5    1377
+2    1315
+6     225
+1     213
+7      10
+8       1
+Name: count, dtype: int64
+
+
+Item2           int64           7
+Item2
+3    3439
+4    3351
+5    1421
+2    1360
+1     213
+6     204
+7      12
+Name: count, dtype: int64
+
+
+Item3           int64           8
+Item3
+4    3464
+3    3379
+5    1358
+2    1356
+6     220
+1     211
+7      11
+8       1
+Name: count, dtype: int64
+
+
+Item4           int64           7
+Item4
+3    3422
+4    3394
+5    1388
+2    1346
+6     231
+1     207
+7      12
+Name: count, dtype: int64
+
+
+Item5           int64           7
+Item5
+4    3446
+3    3423
+2    1380
+5    1308
+6     219
+1     211
+7      13
+Name: count, dtype: int64
+
+
+Item6           int64           7
+Item6
+4    3464
+3    3371
+5    1403
+2    1319
+6     220
+1     213
+7      10
+Name: count, dtype: int64
+
+
+Item7           int64           7
+Item7
+4    3487
+3    3456
+2    1345
+5    1274
+1     215
+6     212
+7      11
+Name: count, dtype: int64
+
+
+Item8           int64           7
+Item8
+3    3401
+4    3337
+5    1429
+2    1391
+6     221
+1     209
+7      12
+Name: count, dtype: int64
+
+
